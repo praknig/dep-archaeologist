@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,10 @@
   },
   "packageManager": "pnpm@11.24.0",
   "type": "module",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
 }
