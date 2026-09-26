@@ -23,8 +23,6 @@ Only the latest published minor version of each package receives security fixes.
 Instead, report privately using one of these methods:
 
 1. **GitHub Security Advisories (preferred):** Go to the repository's **Security** tab → **Advisories** → **Report a vulnerability**. This opens a private channel directly with the maintainers and lets us collaborate on a fix before anything is public.
-2. **Email:** [security@your-domain-or-email-here] if you'd rather not use GitHub, or if you're reporting on behalf of an organization with its own disclosure process.
-
 Please include as much of the following as you can:
 
 - A description of the vulnerability and its potential impact (for example: arbitrary code execution while parsing a crafted file, a path traversal writing outside the project directory, a way to leak the GitHub Action's token or CI environment variables, or a denial-of-service via a malformed input causing excessive memory or CPU use).
