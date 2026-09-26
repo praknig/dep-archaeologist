@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "tsx src/index.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
   },
   "dependencies": {
     "@dep-archaeologist/core": "workspace:*"
